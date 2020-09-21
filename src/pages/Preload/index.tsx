@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react';
-import { Text } from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
 import { useNavigation } from '@react-navigation/native';
 
-import { Container, LoadingIcon } from './styles';
+import Logo from '~/assets/Logo.png';
+
+import { Container, Image } from './styles';
 
 const Preload: React.FC = () => {
   const navigation = useNavigation();
@@ -26,8 +27,7 @@ const Preload: React.FC = () => {
 
   return (
     <Container>
-      <Text>Preload</Text>
-      <LoadingIcon size="large" color="#FFFFFF" />
+      <Image source={Logo} />
     </Container>
   );
 };
