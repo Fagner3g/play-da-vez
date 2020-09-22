@@ -16,8 +16,8 @@ const SignIn: React.FC = () => {
     <Container>
       <Image source={Logo} />
       <ButtonArea>
-        <Button onPress={() => {}} title="Google+" color="#db3236" />
-        <Button onPress={() => {}} title="facebook" color="#3b5998" />
+        <Button onPress={handleSignIn} title="Google+" color="#db3236" />
+        <Button onPress={handleSignIn} title="facebook" color="#3b5998" />
       </ButtonArea>
     </Container>
   );
