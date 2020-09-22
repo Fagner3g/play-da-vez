@@ -20,6 +20,9 @@
 		54A73B49FB6CAC93CD29A7AF /* libPods-play_da_vez.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA1FCDFAC7AD1938BFD936E /* libPods-play_da_vez.a */; };
 		5D3B51A53A90DA454B2646D5 /* libPods-play_da_vez-play_da_vezTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E07269D0F66AA0D35767288 /* libPods-play_da_vez-play_da_vezTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		984DE05B251A2C98006F9623 /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 984DE058251A2C98006F9623 /* Quicksand-SemiBold.ttf */; };
+		984DE05C251A2C98006F9623 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 984DE059251A2C98006F9623 /* Quicksand-Bold.ttf */; };
+		984DE05D251A2C98006F9623 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 984DE05A251A2C98006F9623 /* Quicksand-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		7D4C051A7434B89A49C335FA /* Pods-play_da_vez-play_da_vezTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-play_da_vez-play_da_vezTests.debug.xcconfig"; path = "Target Support Files/Pods-play_da_vez-play_da_vezTests/Pods-play_da_vez-play_da_vezTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = play_da_vez/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A162AD4E4E4A4F986EA7C42 /* Pods-play_da_vez-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-play_da_vez-tvOS.release.xcconfig"; path = "Target Support Files/Pods-play_da_vez-tvOS/Pods-play_da_vez-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		984DE058251A2C98006F9623 /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-SemiBold.ttf"; path = "../../src/assets/fonts/Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
+		984DE059251A2C98006F9623 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Bold.ttf"; path = "../../src/assets/fonts/Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		984DE05A251A2C98006F9623 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Regular.ttf"; path = "../../src/assets/fonts/Quicksand-Regular.ttf"; sourceTree = "<group>"; };
 		CCA1FCDFAC7AD1938BFD936E /* libPods-play_da_vez.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-play_da_vez.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D18F15BB6F00EB94664506F8 /* Pods-play_da_vez-play_da_vezTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-play_da_vez-play_da_vezTests.release.xcconfig"; path = "Target Support Files/Pods-play_da_vez-play_da_vezTests/Pods-play_da_vez-play_da_vezTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -159,6 +165,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				984DE057251A2809006F9623 /* Resources */,
 				13B07FAE1A68108700A75B9A /* play_da_vez */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* play_da_vezTests */,
@@ -182,6 +189,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		984DE057251A2809006F9623 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				984DE059251A2C98006F9623 /* Quicksand-Bold.ttf */,
+				984DE05A251A2C98006F9623 /* Quicksand-Regular.ttf */,
+				984DE058251A2C98006F9623 /* Quicksand-SemiBold.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		B45240DB57CD844D62952481 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,7 +211,6 @@
 				25039EC0646746158050D0B6 /* Pods-play_da_vez-tvOSTests.debug.xcconfig */,
 				2F3893E04CA3EA617EB56D31 /* Pods-play_da_vez-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -340,8 +356,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				984DE05B251A2C98006F9623 /* Quicksand-SemiBold.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				984DE05C251A2C98006F9623 /* Quicksand-Bold.ttf in Resources */,
+				984DE05D251A2C98006F9623 /* Quicksand-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
