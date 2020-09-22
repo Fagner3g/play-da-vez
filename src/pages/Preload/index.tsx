@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
 import { StatusBar } from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
-import { useNavigation } from '@react-navigation/native';
-import { useTheme } from 'styled-components';
+import { useNavigation, useTheme } from '@react-navigation/native';
 
 import Logo from '~/assets/Logo.png';
 
@@ -30,7 +29,6 @@ const Preload: React.FC = () => {
 
   return (
     <Container>
-      <StatusBar hidden />
       <Image source={Logo} />
     </Container>
   );

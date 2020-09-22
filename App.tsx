@@ -18,7 +18,10 @@ const App: React.FC = () => {
   return (
     <ThemeProvider theme={lightTheme}>
       <NavigationContainer>
-        <StatusBar backgroundColor={lightTheme.colors.background} />
+        <StatusBar
+          backgroundColor={lightTheme.colors.background}
+          barStyle="light-content"
+        />
         <Routes />
       </NavigationContainer>
     </ThemeProvider>

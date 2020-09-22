@@ -26,7 +26,7 @@ declare module 'styled-components/native' {
 
 export const lightTheme: DefaultTheme = {
   colors: {
-    primary: '#567DF4',
+    primary: '#F84646',
     secundary: '#7169b6',
     placeholder: '#333',
     danger: 'red',

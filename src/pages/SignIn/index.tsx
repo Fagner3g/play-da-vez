@@ -1,11 +1,17 @@
 import React from 'react';
 
-import { Container, Text } from './styles';
+import Logo from '~/assets/Logo.png';
+
+import { Container, Image, Button, ButtonArea } from './styles';
 
 const SignIn: React.FC = () => {
   return (
     <Container>
-      <Text>SignIn</Text>
+      <Image source={Logo} />
+      <ButtonArea>
+        <Button onPress={() => {}} title="Google+" color="#db3236" />
+        <Button onPress={() => {}} title="Facebook" color="#3b5998" />
+      </ButtonArea>
     </Container>
   );
 };
