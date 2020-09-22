@@ -30,7 +30,7 @@ const Preload: React.FC = () => {
 
   return (
     <Container>
-      <StatusBar backgroundColor={theme.colors.background} hidden />
+      <StatusBar hidden />
       <Image source={Logo} />
     </Container>
   );
