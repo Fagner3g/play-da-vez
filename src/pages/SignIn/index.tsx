@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Logo from '~/assets/Logo.png';
+import Logo from '~/assets/images/Logo.png';
 
 import { Container, Image, Button, ButtonArea } from './styles';
 

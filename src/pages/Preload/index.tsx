@@ -3,7 +3,7 @@ import { StatusBar } from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
 import { useNavigation, useTheme } from '@react-navigation/native';
 
-import Logo from '~/assets/Logo.png';
+import Logo from '~/assets/images/Logo.png';
 
 import { Container, Image } from './styles';
 
